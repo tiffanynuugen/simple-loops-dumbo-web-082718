@@ -1,36 +1,45 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
+  # code your solution here using the "loop" keyword
+  z = 0
   loop do
-    puts "Welcome to Flatiron School's Web Development Course!"
-   end
- end
-
+    z+=1
+    puts "Hello Ruby-007!"
+    break if z == number_of_times
+  end
+end
 
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+  7.times do
+    puts "Hello Ruby-007!"
+  end
 end
 
 def while_iterator(number_of_times)
   # code your solution here using the "while" keyword
-  # hint: user a counter to tell the while loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+  a=0
+  while a < 7
+    puts "Hello Ruby-007!"
+    a+=1
+  end
 end
 
 def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
-  # hint: use a counter to tell the until loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+  b=7
+  until b == 0
+    puts "Hello Ruby-007!"
+    b-=1
+  end
 end
 
 def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
-  # remember that `for` requires a range of numbers. How can we turn our number into a range?
-
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+  c=7
+  for c in 1..7 do
+    puts "Hello Ruby-007!"
+    c-=1
+  end
 end
