@@ -37,7 +37,7 @@ end
 
 def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
-  count = 0
+  count = 1
   for count in 1..7 do
     puts "Welcome to Flatiron School's Web Development Course!"
     count += 1
